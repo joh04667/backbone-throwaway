@@ -7,7 +7,7 @@ render: function(){
 $(this.el).html('<li>' + this.model.get('title') + '</li>');
 }
 });
-var appointmentView = new AppointmentView({model: appointment});
+var appntView = new AppointmentView({model: appointment});
 
 appointmentView.render();
 $('#app').html(appointmentView.el);
