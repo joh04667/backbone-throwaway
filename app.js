@@ -10,4 +10,4 @@ $(this.el).html('<li>' + this.model.get('title') + '</li>');
 var appntView = new AppointmentView({model: appointment});
 
 appointmentView.render();
-$('#app').html(appointmentView.el);
+$('#bone-zone').html(appointmentView.el);
